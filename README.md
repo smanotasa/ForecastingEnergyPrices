@@ -32,7 +32,7 @@ We thank our supervisors for support and commentaries through the development of
 ## Structure repository
 
 - In the folder `src` you can find all the functions used for calculating metrics, graphing, processing data, as well as recurrent functions.
-- In the folder `code` you can find the different notebooks used by stages of our project. Disclaimer: the results are not perfectly reproducable due to the set-up of some models.
+- In the folder `code` you can find the different notebooks used by stages of our project. **Disclaimer**: the results are not perfectly reproduceable due to the set-up of some models.
 
 ## Data
 The final data `fulldata.csv` contains all variables ever used within the study, the file is considerably large. This is the case for many files given the time granularity, data is available in their respective drives as found in `.md` files in their directories.
