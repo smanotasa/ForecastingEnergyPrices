@@ -1,6 +1,5 @@
 **/desktop.ini
 **/.DS_Store
-.DS_Store
 **/__pycache__/
 code/.ipynb_checkpoints
 /data
