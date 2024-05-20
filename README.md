@@ -20,7 +20,7 @@ Our most relevant result is the out-of-sample metrics comparing the models we've
 |----------------|----------|---------|--------------|-----------|
 | Overlap RNN    | 0.1327   | 0.0854  | 11.8221%     | 0.9316    |
 | Non-overlap RNN| 0.1361   | 0.0865  | 12.0120%     | 0.9281    |
-| ARIMA(5,1,3)   | 0.2065   | 0.0590  | 19.6500%     | 0.9205    |
+| ARIMA          | 0.2065   | 0.0590  | 19.6500%     | 0.9205    |
 | AR(1)          | 0.2175   | 0.0619  | 29.2700%     | 0.9118    |
 
 ## Acknowledgements
