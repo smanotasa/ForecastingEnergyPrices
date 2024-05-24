@@ -63,3 +63,12 @@ def create_windows(df, window_size, overlap=True):
         df.set_index(original_index, inplace=True)
 
     return window_data
+
+# Separate the windows into X and Y
+def split_features_targets(windows, target_column):
+    X_windows = []
+    Y_windows = []
+    for window in windows:
+        X_windows.append(window.drop(columns=[target_column]))
+        Y_windows.append(window[target_column].values)
+    return X_windows, Y_windows
